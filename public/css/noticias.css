@@ -1,0 +1,77 @@
+/* Estilos para la Lista Work With */
+.WWList {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.WWList thead {
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.WWList th, .WWList td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.WWList tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.WWList tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Botones y enlaces */
+.btn-primary, button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-secondary, button[type="button"] {
+    background-color: #95a5a6;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos para el Formulario */
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input[type="text"], 
+form input[type="date"], 
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Importante para el ancho total */
+}
+
+form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.center { text-align: center; }

@@ -1,5 +1,13 @@
 {
   "public": [
+
+    {
+      "id": "menu_noticias",
+      "nav_url": "index.php?page=Noticias_NoticiasList",
+      "nav_label": "Gestión de Noticias",
+      "nav_icon": "fas fa-newspaper"
+    },
+    
     {
       "id": "Menu_SignIn",
       "nav_url": "index.php?page=Sec_Login",

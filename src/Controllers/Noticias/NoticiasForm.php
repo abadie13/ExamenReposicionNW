@@ -11,6 +11,7 @@ class NoticiasForm extends PublicController {
     private $modeDescriptions = ["DSP"=>"Detalle", "INS"=>"Nueva", "UPD"=>"Editar", "DEL"=>"Eliminar"];
 
     public function run(): void {
+        \Utilities\Site::addLink("public/css/noticias.css");
         $this->mode = $_GET["mode"] ?? "DSP";
         $id = $_GET["id"] ?? 0;
         if ($this->isPostBack()) {
